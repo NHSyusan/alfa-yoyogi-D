@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+    font-family: "游ゴシック体", "Yu Gothic", "YuGothic", "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+    font-size: 20px;
+}
+.heading{
+    color: #a30b00;
+    border: 2px solid gray;
+    margin: 3em 14em;
+    padding: 1em 1em;
+}
+.story{
+    border: 2px solid gray;
+    margin: 3em 9em;
+    padding: 3em 9em;
+}
+.rule{
+    border: 2px solid gray;
+    margin: 0 9em;
+    padding: 3em 9em;
+}
+.start{
+    position: relative;
+    background-color: #a30b00;
+    top: 7em;
+    width: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.start > a{
+    display: block;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
