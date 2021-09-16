@@ -6,7 +6,7 @@ body{
 .heading{
     color: #a30b00;
     border: 2px solid gray;
-    margin: 3em 14em;
+    margin: 3em 9em;
     padding: 1em 1em;
 }
 .story{
@@ -38,4 +38,52 @@ body{
     text-decoration: none;
     font-weight: bold;
     color: white;
+}
+.messenger{
+    margin: 3em 15em;
+}
+.messagebox_L{
+    background-color: lightskyblue;
+    padding: 1em;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    float: left;
+    margin-bottom: 1em;
+    clear:both;
+}
+.messagebox_R{
+    background-color: lightseagreen;
+    padding: 1em;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    float: right;
+    margin-bottom: 1em;
+    clear:both;
+}
+.messagebox_S{
+    background-color: goldenrod;
+    padding: 1em;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    float: left;
+    margin-bottom: 1em;
+    clear:both;
+}
+.imagebox_L{
+    float: left;
+    margin-bottom: 1em;
+    clear: both;
+    width: 500px;
+}
+.imagebox_R{
+    float: right;
+    margin-bottom: 1em;
+    clear: both;
+    width: 500px;
 }
