@@ -14,16 +14,6 @@
 </div>
 <main>
 <div id="stage" class="messenger">
-  
-<div class="messagebox_L"><a>タイムマシンサンキューな、<ruby>明日<rt>あした</rt></ruby>10<ruby>時<rt>じ</rt></ruby>ちょうどにでるよ</a></div>
-<div class="messagebox_R"><a>タイムスリップは1分につき60年だから<ruby>忘<rt>わす</rt></ruby>れないようにね！</a></div>
-<div class="messagebox_L"><a><ruby>分<rt>わ</rt></ruby>かってるって。5分で300年、だろ？</a></div>
-<div class="messagebox_R"><a>2407年からひくんだぞー</a></div>
-<div class="messagebox_R"><a>それと<ruby>事故<rt>じこ</rt></ruby>と<ruby>充電<rt>じゅうでん</rt></ruby><ruby>切<rt>ぎ</rt></ruby>れには気をつけて！</a></div>
-<div class="messagebox_L"><a><ruby>大丈夫<rt>だいじょうぶ</rt></ruby>だって〜</a></div>
-<div class="messagebox_R"><a>まあ、<ruby>楽<rt>たの</rt></ruby><ruby>しんできなよ</a></div>
-<div class="messagebox_L"><a>おうよ！</a></div>  
-<!--ここからスタートに直してほしい。LINEの日付表示みたいに「-9月15日-」みたいな表示を入れられるとよりよい-->
 <div class="messagebox_L"><a>た、<ruby>助<rt>たす</rt></ruby>けて！</a></div>
 <div class="messagebox_L"><a><ruby>昨日<rt>きのう</rt></ruby>もらったタイムマシンで<ruby>事故<rt>じこ</rt></ruby>を<ruby>起<rt>お</rt></ruby>こしてしまった</a></div>
 <div class="messagebox_L"><a>しかも<ruby>知<rt>し</rt></ruby>らない<ruby>時代<rt>じだい</rt></ruby>に<ruby>取<rt>と</rt></ruby>り<ruby>残<rt>のこ</rt></ruby>されてるんだよ...</a></div>
@@ -41,13 +31,14 @@
 <div class="messagebox_L"><a><ruby>他<rt>ほか</rt></ruby>には<ruby>特<rt>とく</rt></ruby>に<ruby>無<rt>な</rt></ruby>い</a></div>
 <div class="messagebox_R"><a><ruby>何年<rt>なんねん</rt></ruby>だろう...</a></div>
 <div class="messagebox_R"><a><ruby>数字<rt>すうじ</rt></ruby>だけ<ruby>打<rt>う</rt></ruby>ち<ruby>込<rt>こ</rt></ruby>んでね</a>
-  
-      <section class="section bg-color--keycolor">
+
+
+    <section class="section bg-color--keycolor">
       <div class="container">
         <answer-input v-bind:correct="correctAnswer['stage1']['q1']" v-on:answer-input="answerInput($event, 'stage1', 1)"></answer-input>
       </div>
     </section>
-　　
+
     </div>
     <div v-if="clear['stage1']" id="sectionStage2" class="stage">
     <div class="messagebox_L"><a>おお！さすがだぜ！</a></div>
@@ -60,7 +51,6 @@
     <div class="messagebox_R"><a><ruby>左上<rt>ひだりうえ</rt></ruby>のボタンを<ruby>押<rt>お</rt></ruby>せばいけるはず</a></div>
     <div class="messagebox_L"><a>おっ、でてきた！けどなんか<ruby>暗号化<rt>あんごうか</rt></ruby>されてる！</a></div>
     <img src="assets/images/謎2new.png" class="imagebox_L">
-    <!--答えを「じゅうでんぎれ」に変更-->
     <div class="messagebox_R"><a>AIも<ruby>不調<rt>ふちょう</rt></ruby>みたいだ、えーとこれは...</a></div>
     <div class="messagebox_R">
 
@@ -79,9 +69,9 @@
     <div class="messagebox_L"><a>ご、ごめん</a></div>
     <div class="messagebox_R"><a>でも<ruby>原因<rt>げんいん</rt></ruby>がわかっただけ<ruby>良<rt>よ</rt></ruby>かった、<ruby>充電<rt>じゅうでん</rt></ruby><ruby>切<rt>ぎ</rt></ruby>れなら<ruby>手回<rt>てまわ</rt></ruby>しの<ruby>発電機<rt>はつでんき</rt></ruby>があるからそれを<ruby>回<rt>まわ</rt></ruby>せば<ruby>充電<rt>じゅうでん</rt></ruby>できるよ</a></div>
     <div class="messagebox_L"><a>よし、これで<ruby>帰<rt>かえ</rt></ruby>れ...って、<ruby>重<rt>おも</rt></ruby>くて<ruby>回<rt>まわ</rt></ruby>せないんだが</a></div>
-    <div class="messagebox_R"><a>あ、そういえば負荷の調整忘れてた</a></div>
-    <div class="messagebox_R"><a>馬なら回せるけど、この時代馬は貴重なんだ</a></div>
-    <div class="messagebox_L"><a>その辺の人に借りられないか聞いてくるぜ！</a></div>
+    <div class="messagebox_R"><a>あ、そういえば<ruby>負荷<rt>ふか</rt></ruby>の<ruby>調整<rt>ちょうせい</rt></ruby><ruby>忘<rt>わす</rt></ruby>れてた</a></div>
+    <div class="messagebox_R"><a><ruby>馬<rt>うま</rt></ruby>なら<ruby>回<rt>まわ</rt></ruby>せるけど、この<ruby>時代<rt>じだい</rt></ruby><ruby>馬<rt>うま</rt></ruby>は<ruby>貴重<rt>きちょう</rt></ruby>なんだ</a></div>
+    <div class="messagebox_L"><a>その<ruby>辺<rt>へん</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>に<ruby>借<rt>か</rt></ruby>りられないか<ruby>聞<rt>き</rt></ruby>いてくるぜ！</a></div>
     <div class="messagebox_L"><a>偉い人の部下に聞いたら「我々全員の出す謎を解ければ我らの主人に会わせてやろう！はっはっは！」と言われた</a></div>
     <div class="messagebox_L"><a>この辺で馬を持ってるのはその人だけなんだってよ</a></div>
     <div class="messagebox_R"><a>この時代の偉い人は聖徳太子だから、その部下と言えば冠位十二階かな</a></div>
@@ -90,22 +80,16 @@
     <div class="messagebox_R"><a>その人達は「智」の組だ、冠位十二階は「智、義、信、礼、仁、徳」の順でえらいから</a></div>
     <div class="messagebox_L"><a>さすが聖徳太子、部下も有能だな</a></div>
     <div class="messagebox_L"><a>最初はこんな人たち</a></div>
-    <img src="assets/images/謎出題1.智.png" class="imagebox_L">
     <img src="assets/images/謎1.png" class="imagebox_L">
     <div class="messagebox_L"><a>次はこんな人</a></div>
-    <img src="assets/images/謎出題2.義.png" class="imagebox_L">
     <img src="assets/images/謎2.png" class="imagebox_L">
-    <div class="messagebox_L"><a>3組目</a></div>
-    <img src="assets/images/謎出題3.信.png" class="imagebox_L">
+    <div class="messagebox_L"><a>3番目</a></div>
     <img src="assets/images/謎3.png" class="imagebox_L">
-    <div class="messagebox_L"><a>4組目</a></div>
-    <img src="assets/images/謎出題4.礼.png" class="imagebox_L">
+    <div class="messagebox_L"><a>4番目</a></div>
     <img src="assets/images/謎4.png" class="imagebox_L">
-    <div class="messagebox_L"><a>5</a></div>
-    <img src="assets/images/謎出題5.仁.png" class="imagebox_L">
+    <div class="messagebox_L"><a>5番</a></div>
     <img src="assets/images/謎5.png" class="imagebox_L">
-    <div class="messagebox_L"><a>6!最後お！</a></div>
-    <img src="assets/images/謎出題6.徳.png" class="imagebox_L">
+    <div class="messagebox_L"><a>6</a></div>
     <img src="assets/images/謎6.png" class="imagebox_L">
     <div class="messagebox_L"><a>6</a></div>
     <img src="assets/images/Q3.png" class="imagebox_L">
@@ -124,25 +108,25 @@
     <div class="messagebox_L"><a>すげえ！役人達おどろいてたぜ！</a></div>
     <div class="messagebox_R"><a>お前も少しは手伝ってくれよ...</a></div>
     <div class="messagebox_L"><a>まあまあ</a></div>
-    <div class="messagebox_L"><a><ruby>見事<rt>みごと</rt></ruby>だ、<ruby>若<rt>わか</rt></ruby>きものよ...</a></div>
     <div class="messagebox_S"><a>法隆寺の大宝蔵院の中庭に面した壁には、外壁にはあまり多く使われていない色が多く使われているが、その色は？</a></div>
     <div class="messagebox_S"><a>これが分かるということは本当に未来から来たようですね</a></div>
     <div class="messagebox_S"><a>私が信じた神仏の道が幾千年も信じられていて、本当によかった</a></div>
     <div class="messagebox_S"><a>約束通り馬はお貸ししましょう</a></div>
-    <!--縦棒を何本か重ねたり何回か改行して時間がたった雰囲気を出したい-->
     <div class="messagebox_L"><a>いや〜、それにしても大変だったな</a></div>
     <div class="messagebox_R"><a>主に僕がな！</a></div>
     <div class="messagebox_L"><a>すまんって〜、でもありがとよ！</a></div>
-    <div class="messagebox_R"><a>まあでも、こっちも無事戻れて安心したよ</a></div>
-    <div class="messagebox_L"><a>そうだな、ん？</a></div>
+    <div class="messagebox_R"><a>こっちも無事戻れて安心したよ</a></div>
+    <div class="messagebox_L"><a>そうだな〜、ん？</a></div>
     <div class="messagebox_R"><a>どうかした？</a></div>
     <div class="messagebox_L"><a>また別の時代に来てしまった気がする</a></div>
     <div class="messagebox_R"><a>えっ</a></div>
     <div class="messagebox_L"><a>ごめん、助けて...</a></div>
     <div class="messagebox_R"><a>もう勝手にしてくれ</a></div>
     <div class="messagebox_L"><a>そ、そんなあ</a></div>
+</div>
 
-  </div>
+```
+
 </main>
 <div class="footer">
 <img src="assets/images/footer.png" width="100%">
@@ -154,6 +138,6 @@
 <p class="text-center">株式会社SCRAPとN・S高で実施した授業「リアル脱出ゲームの作り方」の一環で<br>生徒が制作したものであり、SCRAPが主催/公認するものではありません。</p>
 </div>
 </footer>
-<script src="https://unpkg.com/vue@next"></script>
+<script src="[https://unpkg.com/vue@next](https://unpkg.com/vue@next)"></script>
 <script src="assets/js/main.js"></script>
 </body>
