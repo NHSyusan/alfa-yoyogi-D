@@ -117,7 +117,6 @@
     </section>
 
     </div>
-  </div>
   <div v-if="clear['stage3']" id="sectionStage4" class="stage">
     <div class="messagebox_R"><a>や、やっと<ruby>終<rt>お</rt></ruby>わった...</a></div>
     <div class="messagebox_L"><a>すげえ！<ruby>役人達<rt>やくにんたち</rt></ruby>おどろいてたぜ！</a></div>
@@ -131,6 +130,17 @@
     <div class="messagebox_S"><a>お<ruby>話<rt>はなし</rt></ruby>は<ruby>聞<rt>き</rt></ruby>いています、<ruby>私<rt>わたし</rt></ruby>の<ruby>問<rt>と</rt></ruby>いに<ruby>答<rt>こた</rt></ruby>えられれば<ruby>馬<rt>うま</rt></ruby>はお<ruby>貸<rt>か</rt></ruby>ししましょう。</a></div>
     <div class="messagebox_L"><a>それではどうぞ。これまでの<ruby>謎<rt>なぞ</rt></ruby>を<ruby>解<rt>と</rt></ruby>いてきたあなたなら<ruby>解<rt>と</rt></ruby>けるはずです。</a></div>
     <img src="assets/images/謎4番目.png" class="imagebox_L">
+      <div class="messagebox_R">
+
+    <section class="section bg-color--keycolor">
+      <div class="container">
+        <answer-input v-bind:correct="correctAnswer['stage4']['q1']" v-on:answer-input="answerInput($event, 'stage4', 1)"></answer-input>
+      </div>
+    </section>
+
+    </div>
+  
+  <div v-if="clear['stage4']" id="sectionStage5" class="stage">
     <div class="messagebox_S"><a>これが<ruby>分<rt>わ</rt></ruby>かるということは<ruby>本当<rt>ほんとう</rt></ruby>に<ruby>未来<rt>みらい</rt></ruby>から<ruby>来<rt>き</rt></ruby>たようですね</a></div>
     <div class="messagebox_S"><a><ruby>私<rt>わたし</rt></ruby>が<ruby>信<rt>しん</rt></ruby>じた<ruby>神仏<rt>しんぶつ</rt></ruby>の<ruby>道<rt>みち</rt></ruby>が<ruby>幾千年<rt>いくせんねん</rt></ruby>も<ruby>信<rt>しん</rt></ruby>じられていて、<ruby>本当<rt>ほんとう</rt></ruby>によかった</a></div>
     <div class="messagebox_S"><a><ruby>約束<rt>やくそく</rt></ruby><ruby>通<rt>どお</rt></ruby>り<ruby>馬<rt>うま</rt></ruby>はお<ruby>貸<rt>か</rt></ruby>ししましょう</a></div>
